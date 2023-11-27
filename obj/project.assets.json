@@ -2133,11 +2133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emman\\source\\repos\\MejorandoConceptos\\MejorandoConceptos\\MejorandoConceptos.csproj",
+      "projectUniqueName": "C:\\Users\\emman\\OneDrive\\Desktop\\PruebaGIT\\SeleniumElementsRepo\\MejorandoConceptos.csproj",
       "projectName": "MejorandoConceptos",
-      "projectPath": "C:\\Users\\emman\\source\\repos\\MejorandoConceptos\\MejorandoConceptos\\MejorandoConceptos.csproj",
+      "projectPath": "C:\\Users\\emman\\OneDrive\\Desktop\\PruebaGIT\\SeleniumElementsRepo\\MejorandoConceptos.csproj",
       "packagesPath": "C:\\Users\\emman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emman\\source\\repos\\MejorandoConceptos\\MejorandoConceptos\\obj\\",
+      "outputPath": "C:\\Users\\emman\\OneDrive\\Desktop\\PruebaGIT\\SeleniumElementsRepo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emman\\AppData\\Roaming\\NuGet\\NuGet.Config",

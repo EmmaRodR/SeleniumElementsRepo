@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "idcp5SXtXsgmnZhPcRMuFfBeO6fNGPAV42h3wiUQu66n0m8KWw1L1hl+5OZBUoKbiTlsicMwDNtFL5UAuTngDw==",
+  "dgSpecHash": "lBqehLhVVrVFoNWhUe8a32G3o2wWFu7yZ+Z2rIx9V4UU3lNJ/Y1HcQK86STbgQRhFXCj9YqP39OjAc5irgUGjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emman\\source\\repos\\MejorandoConceptos\\MejorandoConceptos\\MejorandoConceptos.csproj",
+  "projectFilePath": "C:\\Users\\emman\\OneDrive\\Desktop\\PruebaGIT\\SeleniumElementsRepo\\MejorandoConceptos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emman\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\emman\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",

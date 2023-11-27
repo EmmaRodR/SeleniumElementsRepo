@@ -15,6 +15,8 @@ namespace MejorandoConceptos.Pages.BasePage
         private IWebDriver _driver;
 
 
+        //Locators
+
         [FindsBy(How = How.Id, Using =("ajaxButton"))]
         private IWebElement ajaxButton;
 
@@ -30,6 +32,7 @@ namespace MejorandoConceptos.Pages.BasePage
         }
 
 
+        //Methods
         public void clickAjaxRequestButton()
         {
             BasePage.clickElement(ajaxButton);
