@@ -34,7 +34,7 @@ namespace MejorandoConceptos.Tests.BaseTest
 
         [TearDown]
 
-        public void tearDown()
+        public void TearDown()
         {
 
             BaseTest.tearDown();

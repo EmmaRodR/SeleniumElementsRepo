@@ -38,7 +38,7 @@ namespace MejorandoConceptos.Tests.BaseTest
 
 
         [TearDown]
-        public void shutdown () {
+        public void TearDown () {
 
             BaseTest.tearDown();
         }

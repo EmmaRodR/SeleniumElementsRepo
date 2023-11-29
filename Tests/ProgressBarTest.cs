@@ -26,7 +26,7 @@ namespace MejorandoConceptos.Tests.BaseTest
         {
             ProgressBarPage pbp = new ProgressBarPage(_driver);
 
-            String stopNumber ="75";
+            String stopNumber ="50";
 
             pbp.ClickStart();
             pbp.StopProgressBarAt(stopNumber);

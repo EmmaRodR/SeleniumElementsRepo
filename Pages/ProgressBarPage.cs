@@ -19,7 +19,7 @@ namespace MejorandoConceptos.Pages.BasePage
         [FindsBy(How = How.XPath, Using = ("//*[@id=\"progressBar\"]"))]
         private IWebElement progressBar;
 
-        [FindsBy(How = How.XPath, Using = ("//*[@id=\"stopButton\"]"))]
+        [FindsBy(How = How.Id, Using = ("stopButton"))]
         private IWebElement stopButton;
 
 
@@ -32,8 +32,6 @@ namespace MejorandoConceptos.Pages.BasePage
             this._driver = driver;
 
         }
-
-
 
 
         public void ClickStart ()
@@ -49,20 +47,18 @@ namespace MejorandoConceptos.Pages.BasePage
         }
 
 
-        public void StopProgressBarAt(string stopNumber)
+        public void StopProgressBarAt(String stopNumber)
         {
 
             WebDriverWait wait = new WebDriverWait(_driver,TimeSpan.FromSeconds(60));
 
-            bool progressStatus = wait.Until(ExpectedConditions.TextToBePresentInElement(progressBar, stopNumber));
+            bool progressStatus = wait.Until(ExpectedConditions.TextToBePresentInElement(progressBar,stopNumber));
 
             if (progressStatus == true)
             {
                 ClickStop();
 
             }
-
-
         }
 
 
